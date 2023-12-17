@@ -1,4 +1,6 @@
-﻿using System;
+﻿using GUI_V_2.Clases;
+using GUI_V_2.Forms;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +18,7 @@ namespace GUI_V_2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormLogin());
+            Application.Run(new Productos());
         }
     }
 }
