@@ -1,0 +1,97 @@
+E:\TUT\PROYECTOS\GUI_V_2\GUI_V_2\bin\Debug\GUI_V_2.exe.config
+E:\TUT\PROYECTOS\GUI_V_2\GUI_V_2\bin\Debug\GUI_V_2.exe
+E:\TUT\PROYECTOS\GUI_V_2\GUI_V_2\bin\Debug\GUI_V_2.pdb
+E:\TUT\PROYECTOS\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.csprojResolveAssemblyReference.cache
+E:\TUT\PROYECTOS\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.Form1.resources
+E:\TUT\PROYECTOS\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.Properties.Resources.resources
+E:\TUT\PROYECTOS\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.csproj.GenerateResource.Cache
+E:\TUT\PROYECTOS\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.exe
+E:\TUT\PROYECTOS\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.pdb
+E:\TUT\PROYECTOS\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.Productos.resources
+E:\TUT\PROYECTOS\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.InicioResumen.resources
+C:\Users\RonetJohn\Documents\proyectoGUI_V2\GUI_V_2\GUI_V_2\bin\Debug\GUI_V_2.exe.config
+C:\Users\RonetJohn\Documents\proyectoGUI_V2\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.exe
+C:\Users\RonetJohn\Documents\proyectoGUI_V2\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.pdb
+C:\Users\RonetJohn\Documents\proyectoGUI_V2\GUI_V_2\GUI_V_2\bin\Debug\GUI_V_2.exe
+C:\Users\RonetJohn\Documents\proyectoGUI_V2\GUI_V_2\GUI_V_2\bin\Debug\GUI_V_2.pdb
+C:\Users\RonetJohn\Documents\proyectoGUI_V2\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.csprojResolveAssemblyReference.cache
+C:\Users\RonetJohn\Documents\proyectoGUI_V2\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.Form1.resources
+C:\Users\RonetJohn\Documents\proyectoGUI_V2\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.InicioResumen.resources
+C:\Users\RonetJohn\Documents\proyectoGUI_V2\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.Productos.resources
+C:\Users\RonetJohn\Documents\proyectoGUI_V2\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.Properties.Resources.resources
+C:\Users\RonetJohn\Documents\proyectoGUI_V2\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.csproj.GenerateResource.Cache
+C:\Users\RonetJhon\Downloads\proyectoGUI_V2\proyectoGUI_V2\GUI_V_2\GUI_V_2\bin\Debug\GUI_V_2.exe.config
+C:\Users\RonetJhon\Downloads\proyectoGUI_V2\proyectoGUI_V2\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.exe
+C:\Users\RonetJhon\Downloads\proyectoGUI_V2\proyectoGUI_V2\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.pdb
+D:\RJ Code Advance\Source Code C#\2018\GUI_MODERNISTA VD02\proyectoGUI_V2\GUI_V_2\GUI_V_2\bin\Debug\GUI_V_2.exe.config
+D:\RJ Code Advance\Source Code C#\2018\GUI_MODERNISTA VD02\proyectoGUI_V2\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.exe
+D:\RJ Code Advance\Source Code C#\2018\GUI_MODERNISTA VD02\proyectoGUI_V2\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.pdb
+D:\RJ Code Advance\Source Code C#\2018\GUI_MODERNISTA VD02\proyectoGUI_V2\GUI_V_2\GUI_V_2\bin\Debug\GUI_V_2.exe
+D:\RJ Code Advance\Source Code C#\2018\GUI_MODERNISTA VD02\proyectoGUI_V2\GUI_V_2\GUI_V_2\bin\Debug\GUI_V_2.pdb
+D:\RJ Code Advance\Source Code C#\2018\GUI_MODERNISTA VD02\proyectoGUI_V2\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.csprojResolveAssemblyReference.cache
+D:\RJ Code Advance\Source Code C#\2018\GUI_MODERNISTA VD02\proyectoGUI_V2\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.Form1.resources
+D:\RJ Code Advance\Source Code C#\2018\GUI_MODERNISTA VD02\proyectoGUI_V2\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.InicioResumen.resources
+D:\RJ Code Advance\Source Code C#\2018\GUI_MODERNISTA VD02\proyectoGUI_V2\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.Productos.resources
+D:\RJ Code Advance\Source Code C#\2018\GUI_MODERNISTA VD02\proyectoGUI_V2\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.Properties.Resources.resources
+D:\RJ Code Advance\Source Code C#\2018\GUI_MODERNISTA VD02\proyectoGUI_V2\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.csproj.GenerateResource.Cache
+C:\Users\alexa\Downloads\}\Estrucutura\GUI_V_2\bin\Debug\GUI_V_2.exe.config
+C:\Users\alexa\Downloads\}\Estrucutura\GUI_V_2\bin\Debug\GUI_V_2.exe
+C:\Users\alexa\Downloads\}\Estrucutura\GUI_V_2\bin\Debug\GUI_V_2.pdb
+C:\Users\alexa\Downloads\}\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.csproj.AssemblyReference.cache
+C:\Users\alexa\Downloads\}\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.csproj.SuggestedBindingRedirects.cache
+C:\Users\alexa\Downloads\}\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.Form1.resources
+C:\Users\alexa\Downloads\}\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.InicioResumen.resources
+C:\Users\alexa\Downloads\}\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.Productos.resources
+C:\Users\alexa\Downloads\}\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.Properties.Resources.resources
+C:\Users\alexa\Downloads\}\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.csproj.GenerateResource.cache
+C:\Users\alexa\Downloads\}\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Downloads\}\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.exe
+C:\Users\alexa\Downloads\}\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.pdb
+C:\Users\alexa\Downloads\}\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.FormLogin.resources
+C:\Users\lyzii\Desktop\Downloads\final\Estrucutura\GUI_V_2\bin\Debug\GUI_V_2.exe.config
+C:\Users\lyzii\Desktop\Downloads\final\Estrucutura\GUI_V_2\bin\Debug\GUI_V_2.exe
+C:\Users\lyzii\Desktop\Downloads\final\Estrucutura\GUI_V_2\bin\Debug\GUI_V_2.pdb
+C:\Users\lyzii\Desktop\Downloads\final\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.csproj.AssemblyReference.cache
+C:\Users\lyzii\Desktop\Downloads\final\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.csproj.SuggestedBindingRedirects.cache
+C:\Users\lyzii\Desktop\Downloads\final\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.Form1.resources
+C:\Users\lyzii\Desktop\Downloads\final\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.FormLogin.resources
+C:\Users\lyzii\Desktop\Downloads\final\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.InicioResumen.resources
+C:\Users\lyzii\Desktop\Downloads\final\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.Productos.resources
+C:\Users\lyzii\Desktop\Downloads\final\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.Properties.Resources.resources
+C:\Users\lyzii\Desktop\Downloads\final\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.csproj.GenerateResource.cache
+C:\Users\lyzii\Desktop\Downloads\final\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.csproj.CoreCompileInputs.cache
+C:\Users\lyzii\Desktop\Downloads\final\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.exe
+C:\Users\lyzii\Desktop\Downloads\final\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.pdb
+C:\Users\lyzii\Desktop\Downloads\final\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.UserControl1.resources
+C:\Users\lyzii\Desktop\Downloads\final\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.Form2.resources
+C:\Users\farid.rios\Desktop\avance\Estrucutura\GUI_V_2\bin\Debug\GUI_V_2.exe.config
+C:\Users\farid.rios\Desktop\avance\Estrucutura\GUI_V_2\bin\Debug\GUI_V_2.exe
+C:\Users\farid.rios\Desktop\avance\Estrucutura\GUI_V_2\bin\Debug\GUI_V_2.pdb
+C:\Users\farid.rios\Desktop\avance\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.csproj.AssemblyReference.cache
+C:\Users\farid.rios\Desktop\avance\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.Form1.resources
+C:\Users\farid.rios\Desktop\avance\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.Form2.resources
+C:\Users\farid.rios\Desktop\avance\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.FormLogin.resources
+C:\Users\farid.rios\Desktop\avance\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.InicioResumen.resources
+C:\Users\farid.rios\Desktop\avance\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.Productos.resources
+C:\Users\farid.rios\Desktop\avance\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.Properties.Resources.resources
+C:\Users\farid.rios\Desktop\avance\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.UserControl1.resources
+C:\Users\farid.rios\Desktop\avance\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.csproj.GenerateResource.cache
+C:\Users\farid.rios\Desktop\avance\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.csproj.CoreCompileInputs.cache
+C:\Users\farid.rios\Desktop\avance\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.exe
+C:\Users\farid.rios\Desktop\avance\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.pdb
+C:\Users\alexa\Downloads\avance\Estrucutura\GUI_V_2\bin\Debug\GUI_V_2.exe.config
+C:\Users\alexa\Downloads\avance\Estrucutura\GUI_V_2\bin\Debug\GUI_V_2.exe
+C:\Users\alexa\Downloads\avance\Estrucutura\GUI_V_2\bin\Debug\GUI_V_2.pdb
+C:\Users\alexa\Downloads\avance\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.csproj.AssemblyReference.cache
+C:\Users\alexa\Downloads\avance\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.csproj.SuggestedBindingRedirects.cache
+C:\Users\alexa\Downloads\avance\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.Form1.resources
+C:\Users\alexa\Downloads\avance\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.Form2.resources
+C:\Users\alexa\Downloads\avance\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.FormLogin.resources
+C:\Users\alexa\Downloads\avance\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.InicioResumen.resources
+C:\Users\alexa\Downloads\avance\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.Productos.resources
+C:\Users\alexa\Downloads\avance\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.Properties.Resources.resources
+C:\Users\alexa\Downloads\avance\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.UserControl1.resources
+C:\Users\alexa\Downloads\avance\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.csproj.GenerateResource.cache
+C:\Users\alexa\Downloads\avance\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Downloads\avance\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.exe
+C:\Users\alexa\Downloads\avance\Estrucutura\GUI_V_2\obj\Debug\GUI_V_2.pdb
