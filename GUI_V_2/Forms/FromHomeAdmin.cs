@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using GUI_V_2.Forms;
 
 namespace GUI_V_2
 {
@@ -73,7 +74,7 @@ namespace GUI_V_2
 
         private void btnprod_Click(object sender, EventArgs e)
         {
-            //AbrirFormEnPanel(new Form2());
+            AbrirFormEnPanel(new Productos());
         }
 
         private void btnlogoInicio_Click(object sender, EventArgs e)
@@ -84,6 +85,21 @@ namespace GUI_V_2
         private void Form1_Load(object sender, EventArgs e)
         {
             btnlogoInicio_Click(null,e);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new InicioResumen());
+        }
+
+        private void BtnClientes_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new Clientescs());
+        }
+
+        private void BtnEmpleados_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new Empleados());
         }
     }
 }

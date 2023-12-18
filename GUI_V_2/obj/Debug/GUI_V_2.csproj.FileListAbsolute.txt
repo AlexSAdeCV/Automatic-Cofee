@@ -172,3 +172,5 @@ C:\Github\Kapicentro\Automatic-Cofee\GUI_V_2\bin\Debug\System.Threading.Tasks.Ex
 C:\Github\Kapicentro\Automatic-Cofee\GUI_V_2\bin\Debug\System.ValueTuple.xml
 C:\Github\Kapicentro\Automatic-Cofee\GUI_V_2\obj\Debug\GUI_V_2.csproj.CopyComplete
 C:\Github\Kapicentro\Automatic-Cofee\GUI_V_2\obj\Debug\GUI_V_2.Forms.VentasRealizadas.resources
+C:\Github\Kapicentro\Automatic-Cofee\GUI_V_2\obj\Debug\GUI_V_2.Forms.Clientescs.resources
+C:\Github\Kapicentro\Automatic-Cofee\GUI_V_2\obj\Debug\GUI_V_2.Forms.Empleados.resources

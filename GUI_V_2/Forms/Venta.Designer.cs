@@ -93,7 +93,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Window;
-            this.label1.Location = new System.Drawing.Point(889, 384);
+            this.label1.Location = new System.Drawing.Point(923, 384);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(39, 42);
             this.label1.TabIndex = 115;
@@ -104,7 +104,7 @@
             this.Lbl_Total.AutoSize = true;
             this.Lbl_Total.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_Total.ForeColor = System.Drawing.SystemColors.Window;
-            this.Lbl_Total.Location = new System.Drawing.Point(934, 379);
+            this.Lbl_Total.Location = new System.Drawing.Point(968, 379);
             this.Lbl_Total.Name = "Lbl_Total";
             this.Lbl_Total.Size = new System.Drawing.Size(39, 42);
             this.Lbl_Total.TabIndex = 114;
@@ -114,7 +114,7 @@
             // 
             this.NudPro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.NudPro.ForeColor = System.Drawing.Color.White;
-            this.NudPro.Location = new System.Drawing.Point(602, 242);
+            this.NudPro.Location = new System.Drawing.Point(636, 242);
             this.NudPro.Name = "NudPro";
             this.NudPro.Size = new System.Drawing.Size(109, 20);
             this.NudPro.TabIndex = 113;
@@ -138,7 +138,7 @@
             // 
             // BtnModificar
             // 
-            this.BtnModificar.Location = new System.Drawing.Point(798, 280);
+            this.BtnModificar.Location = new System.Drawing.Point(832, 280);
             this.BtnModificar.Name = "BtnModificar";
             this.BtnModificar.Size = new System.Drawing.Size(121, 40);
             this.BtnModificar.TabIndex = 120;
@@ -148,7 +148,7 @@
             // 
             // BtnEliminar
             // 
-            this.BtnEliminar.Location = new System.Drawing.Point(672, 326);
+            this.BtnEliminar.Location = new System.Drawing.Point(706, 326);
             this.BtnEliminar.Name = "BtnEliminar";
             this.BtnEliminar.Size = new System.Drawing.Size(109, 40);
             this.BtnEliminar.TabIndex = 121;
@@ -158,7 +158,7 @@
             // 
             // BtnModificarCan
             // 
-            this.BtnModificarCan.Location = new System.Drawing.Point(672, 280);
+            this.BtnModificarCan.Location = new System.Drawing.Point(706, 280);
             this.BtnModificarCan.Name = "BtnModificarCan";
             this.BtnModificarCan.Size = new System.Drawing.Size(109, 40);
             this.BtnModificarCan.TabIndex = 122;
@@ -168,7 +168,7 @@
             // 
             // BtnCancelar
             // 
-            this.BtnCancelar.Location = new System.Drawing.Point(798, 326);
+            this.BtnCancelar.Location = new System.Drawing.Point(832, 326);
             this.BtnCancelar.Name = "BtnCancelar";
             this.BtnCancelar.Size = new System.Drawing.Size(121, 40);
             this.BtnCancelar.TabIndex = 123;
@@ -178,7 +178,7 @@
             // 
             // BtnTerminar
             // 
-            this.BtnTerminar.Location = new System.Drawing.Point(896, 439);
+            this.BtnTerminar.Location = new System.Drawing.Point(930, 439);
             this.BtnTerminar.Name = "BtnTerminar";
             this.BtnTerminar.Size = new System.Drawing.Size(86, 40);
             this.BtnTerminar.TabIndex = 125;
@@ -189,7 +189,7 @@
             // CmbCLientes
             // 
             this.CmbCLientes.FormattingEnabled = true;
-            this.CmbCLientes.Location = new System.Drawing.Point(728, 242);
+            this.CmbCLientes.Location = new System.Drawing.Point(762, 242);
             this.CmbCLientes.Name = "CmbCLientes";
             this.CmbCLientes.Size = new System.Drawing.Size(121, 21);
             this.CmbCLientes.TabIndex = 126;
@@ -200,7 +200,7 @@
             this.CmbMetodoP.Items.AddRange(new object[] {
             "Efectivo",
             "Tarjeta"});
-            this.CmbMetodoP.Location = new System.Drawing.Point(871, 241);
+            this.CmbMetodoP.Location = new System.Drawing.Point(905, 241);
             this.CmbMetodoP.Name = "CmbMetodoP";
             this.CmbMetodoP.Size = new System.Drawing.Size(121, 21);
             this.CmbMetodoP.TabIndex = 127;

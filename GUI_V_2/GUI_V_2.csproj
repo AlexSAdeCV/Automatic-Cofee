@@ -130,6 +130,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\Clientes.cs" />
+    <Compile Include="Clases\Empleadocs.cs" />
     <Compile Include="Clases\Producto.cs" />
     <Compile Include="Clases\Ventas.cs" />
     <Compile Include="Component1.cs">
@@ -139,6 +141,18 @@
       <DependentUpon>Component1.cs</DependentUpon>
     </Compile>
     <Compile Include="Clases\Conexion.cs" />
+    <Compile Include="Forms\Clientescs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Clientescs.Designer.cs">
+      <DependentUpon>Clientescs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Empleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Empleados.Designer.cs">
+      <DependentUpon>Empleados.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormsHomEmpleado.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -208,6 +222,12 @@
     <Compile Include="UserControl1.Designer.cs">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Forms\Clientescs.resx">
+      <DependentUpon>Clientescs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Empleados.resx">
+      <DependentUpon>Empleados.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>FromHomeAdmin.cs</DependentUpon>
     </EmbeddedResource>

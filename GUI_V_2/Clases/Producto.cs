@@ -182,5 +182,108 @@ namespace GUI_V_2.Clases
 
             return Productos;
         }
+
+        public bool Insertar()
+        {
+            bool operaciones = false;
+            using (SqlConnection conexion = Conexion.Conectar())
+            {
+                SqlCommand Consulta;
+                string sentencia = @"Insert into Productos Values (@NombreProducto, @Precio, @idcategoria)";
+                int resultado = 0;
+
+                Consulta = new SqlCommand(sentencia, conexion);
+                Consulta.Parameters.AddWithValue("@NombreProducto", nombre);
+                Consulta.Parameters.AddWithValue("@Precio", precio);
+                Consulta.Parameters.AddWithValue("@idcategoria", idcategoria);
+
+                try
+                {
+                    conexion.Open();
+
+                    resultado = Consulta.ExecuteNonQuery();
+
+                    if (resultado > 0)
+                    {
+                        Mensaje = "registrada correctamente";
+                        operaciones = true;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+            return operaciones;
+        }
+        public bool Modificar()
+        {
+            bool operaciones = false;
+            using (SqlConnection conexion = Conexion.Conectar())
+            {
+                SqlCommand Consulta;
+                string Sentencia = @"update Productos set NombreProducto = @NombreProducto, Precio = @Precio, idcategoria = @idcategoria where ProductoID = @ProductoID";
+                int resultado = 0;
+
+                Consulta = new SqlCommand(Sentencia, conexion);
+                Consulta.Parameters.AddWithValue("@NombreProducto", nombre);
+                Consulta.Parameters.AddWithValue("@Precio", precio);
+                Consulta.Parameters.AddWithValue("@idcategoria", idcategoria);
+                Consulta.Parameters.AddWithValue("@ProductoID", idproducto);
+
+
+                try
+                {
+                    conexion.Open();
+
+                    resultado = Consulta.ExecuteNonQuery();
+
+                    if (resultado > 0)
+                    {
+                        Mensaje = "registrada correctamente";
+                        operaciones = true;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+            return operaciones;
+        }
+
+        public bool Eliminar()
+        {
+            bool Exito = false;
+            using (SqlConnection Con = Conexion.Conectar())
+            {
+                SqlCommand CMDSql;
+
+                int resultado;
+                string Sentencia;
+
+                Sentencia = @"delete from Productos where ProductoID = @ProductoID";
+                CMDSql = new SqlCommand(Sentencia, Con);
+
+                CMDSql.Parameters.AddWithValue("@ProductoID", idproducto);
+
+                try
+                {
+                    Con.Open();
+
+                    resultado = CMDSql.ExecuteNonQuery();
+                    if (resultado > 0)
+                    {
+                        Mensaje = "Eliminacion exitosa";
+                        Exito = true;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Mensaje = ex.Message;
+                }
+            }
+            return Exito;
+        }
     }
 }

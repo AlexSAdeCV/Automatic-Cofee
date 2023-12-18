@@ -25,31 +25,27 @@ CREATE TABLE Empleados (
     Telefono NVARCHAR(15),
     Calle NVARCHAR(255),
     Colonia NVARCHAR(100),
-    Ciudad NVARCHAR(100),
-    Estado NVARCHAR(100),
     CodigoPostal NVARCHAR(10),
-    Puesto NVARCHAR(50),
-    Horario NVARCHAR(50),
     Sueldo DECIMAL(10, 2),
 	Usuario NVARCHAR(30),
 	Contraseña NVARCHAR(30),
-    rol int
+    rol INT
 )
-go
+GO
 
 -- Insertar 10 ejemplos de registros en la tabla Empleados
 INSERT INTO Empleados VALUES
-    ('Juan', 'Gómez', 'López', '555-1234', 'Calle 123', 'Colonia Centro', 'Ciudad A', 'Estado 1', '12345', 'Barista', '8:00 AM - 5:00 PM', 2500.00, 'JuanGL' ,'JGomez939',0),
-    ('María', 'Hernández', 'Sánchez', '555-5678', 'Avenida 456', 'Colonia Norte', 'Ciudad B', 'Estado 2', '56789', 'Cajero', '9:00 AM - 6:00 PM', 2800.00, 'MariaHS', 'MaSnch3z_463',1),
-    ('Carlos', 'Martínez', 'García', '555-9012', 'Calle 789', 'Colonia Sur', 'Ciudad C', 'Estado 3', '78901', 'Mesero', '10:00 AM - 7:00 PM', 2600.00, 'CarlosMG', 'Car_Mtz_Ga746',1),
-    ('Ana', 'Rodríguez', 'Fernández', '555-3456', 'Avenida 012', 'Colonia Este', 'Ciudad D', 'Estado 4', '01234', 'Chef', '12:00 PM - 9:00 PM', 3000.00, 'AnaRF', 'FernandezAR_85,',1),
-    ('Pedro', 'López', 'Vargas', '555-7890', 'Calle 345', 'Colonia Oeste', 'Ciudad E', 'Estado 5', '34567', 'Barista', '8:00 AM - 5:00 PM', 2500.00, 'apaedroLV', 'VargasLopezP_63',1),
-    ('Laura', 'González', 'Ramírez', '555-2345', 'Avenida 678', 'Colonia Poniente', 'Ciudad F', 'Estado 6', '67890', 'Cajero', '9:00 AM - 6:00 PM', 2800.00, 'LauraGR', 'G.RamirezLaura01',1),
-    ('Miguel', 'Sánchez', 'Díaz', '555-6789', 'Calle 901', 'Colonia Central', 'Ciudad G', 'Estado 7', '90123', 'Mesero', '10:00 AM - 7:00 PM', 2600.00, 'MiguelSD', 'MguelSD5820',1),
-    ('Isabel', 'Ramírez', 'Torres', '555-1234', 'Avenida 234', 'Colonia Occidental', 'Ciudad H', 'Estado 8', '23456', 'Chef', '12:00 PM - 9:00 PM', 3000.00, 'IsabelRT', 'IzzyRmzT42',1),
-    ('José', 'Torres', 'Cruz', '555-5678', 'Calle 567', 'Colonia Oriental', 'Ciudad I', 'Estado 9', '56789', 'Barista', '8:00 AM - 5:00 PM', 2500.00, 'J0oseTC', 'TorresCruzJTC',1),
-    ('Carmen', 'Díaz', 'Hernández', '555-9012', 'Avenida 890', 'Colonia Meridional', 'Ciudad J', 'Estado 10', '89012', 'Cajero', '9:00 AM - 6:00 PM', 2800.00, 'CarmenDH', 'D.HernandezC5383',1);
-go
+    ('Juan', 'Gómez', 'López', '555-1234', 'Calle 123', 'Colonia Centro', '12345', 2500.00, 'JuanGL' ,'JGomez939', 0),
+    ('María', 'Hernández', 'Sánchez', '555-5678', 'Avenida 456', 'Colonia Norte', '56789', 2800.00, 'MariaHS', 'MaSnch3z_463', 1),
+    ('Carlos', 'Martínez', 'García', '555-9012', 'Calle 789', 'Colonia Sur', '78901', 2600.00, 'CarlosMG', 'Car_Mtz_Ga746', 1),
+    ('Ana', 'Rodríguez', 'Fernández', '555-3456', 'Avenida 012', 'Colonia Este', '01234', 3000.00, 'AnaRF', 'FernandezAR_85,', 1),
+    ('Pedro', 'López', 'Vargas', '555-7890', 'Calle 345', 'Colonia Oeste', '34567', 2500.00, 'apaedroLV', 'VargasLopezP_63', 1),
+    ('Laura', 'González', 'Ramírez', '555-2345', 'Avenida 678', 'Colonia Poniente', '67890', 2800.00, 'LauraGR', 'G.RamirezLaura01', 1),
+    ('Miguel', 'Sánchez', 'Díaz', '555-6789', 'Calle 901', 'Colonia Central', '90123', 2600.00, 'MiguelSD', 'MguelSD5820', 1),
+    ('Isabel', 'Ramírez', 'Torres', '555-1234', 'Avenida 234', 'Colonia Occidental', '23456', 3000.00, 'IsabelRT', 'IzzyRmzT42', 1),
+    ('José', 'Torres', 'Cruz', '555-5678', 'Calle 567', 'Colonia Oriental', '56789', 2500.00, 'J0oseTC', 'TorresCruzJTC', 1),
+    ('Carmen', 'Díaz', 'Hernández', '555-9012', 'Avenida 890', 'Colonia Meridional', '89012', 2800.00, 'CarmenDH', 'D.HernandezC5383', 1);
+GO
 
 CREATE TABLE Cliente (
     ClienteID INT PRIMARY KEY IDENTITY(1,1),
@@ -128,7 +124,4 @@ CREATE TABLE Ventas (
     EmpleadoID INT FOREIGN KEY REFERENCES Empleados(EmpleadoID),
     ClienteID INT FOREIGN KEY REFERENCES Cliente(ClienteID)
 )
-go
-
-select * from Ventas
 go
