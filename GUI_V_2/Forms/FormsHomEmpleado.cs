@@ -58,5 +58,10 @@ namespace GUI_V_2.Forms
         {
             AbrirFormEnPanel(new InicioResumen());
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();   
+        }
     }
 }

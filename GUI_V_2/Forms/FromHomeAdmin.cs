@@ -101,5 +101,10 @@ namespace GUI_V_2
         {
             AbrirFormEnPanel(new Empleados());
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

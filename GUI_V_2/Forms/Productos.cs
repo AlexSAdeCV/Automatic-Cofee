@@ -219,9 +219,9 @@ namespace GUI_V_2
 
         private void BtnCancelar_Click(object sender, EventArgs e)
         {
+            errorProvider1.Clear();
             Mostrar(1, false, Color.Gray);
             LimpiaCampos();
-            errorProvider1.Clear();
         }
 
         private bool ValidaCampos()

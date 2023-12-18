@@ -115,11 +115,7 @@ namespace GUI_V_2.Forms
 
         private void BtnBuscar_Click(object sender, EventArgs e)
         {
-            if (ValidaCampos())
-            {
-                errorProvider1.Clear();
-                buscar();
-            }
+            buscar();
         }
 
         private void BtnModificarCan_Click(object sender, EventArgs e)
@@ -319,21 +315,21 @@ namespace GUI_V_2.Forms
             }
         }
 
-        private bool ValidaCampos()
-        {
-            bool valido = true;
-            foreach (Control c in panel3.Controls)
-            {
-                if (c is TextBox)
-                {
-                    if (c.Text.Length <= 0)
-                    {
-                        errorProvider1.SetError(c, "Campo no puede estar en blanco");
-                        valido = false;
-                    }
-                }
-            }
-            return valido;
-        }
+        //private bool ValidaCampos()
+        //{
+        //    bool valido = true;
+        //    foreach (Control c in panel3.Controls)
+        //    {
+        //        if (c is TextBox)
+        //        {
+        //            if (c.Text.Length <= 0)
+        //            {
+        //                errorProvider1.SetError(c, "Campo no puede estar en blanco");
+        //                valido = false;
+        //            }
+        //        }
+        //    }
+        //    return valido;
+        //}
     }
 }
