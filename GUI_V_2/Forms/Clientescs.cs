@@ -70,35 +70,39 @@ namespace GUI_V_2.Forms
             int renglon;
             string id;
 
-            switch (op)
+            if (ValidaCampos())
             {
-                case 1:
-                    cl.nombre = txtnombre.Text;
+                errorProvider1.Clear();
+                switch (op)
+                {
+                    case 1:
+                        cl.nombre = txtnombre.Text;
 
-                    if (cl.Insertar())
-                    {
-                        MessageBox.Show("Registro agregado exitosamente", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        LimpiaCampos();
-                        HabilitaBotones();
-                        MostrarClientes();
-                        Mostrar(1, false, Color.Gray);
-                    }
-                    break;
-                case 2:
-                    renglon = dataGridView1.CurrentRow.Index;
-                    id = dataGridView1.Rows[renglon].Cells[0].Value.ToString();
-                    cl.nombre = txtnombre.Text;
-                    cl.idcliente = Convert.ToInt32(id);
+                        if (cl.Insertar())
+                        {
+                            MessageBox.Show("Registro agregado exitosamente", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            LimpiaCampos();
+                            HabilitaBotones();
+                            MostrarClientes();
+                            Mostrar(1, false, Color.Gray);
+                        }
+                        break;
+                    case 2:
+                        renglon = dataGridView1.CurrentRow.Index;
+                        id = dataGridView1.Rows[renglon].Cells[0].Value.ToString();
+                        cl.nombre = txtnombre.Text;
+                        cl.idcliente = Convert.ToInt32(id);
 
-                    if (cl.Modificar())
-                    {
-                        MessageBox.Show("Registro modificado exitosamente", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        LimpiaCampos();
-                        HabilitaBotones();
-                        MostrarClientes();
-                        Mostrar(1, false, Color.Gray);
-                    }
-                    break;
+                        if (cl.Modificar())
+                        {
+                            MessageBox.Show("Registro modificado exitosamente", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            LimpiaCampos();
+                            HabilitaBotones();
+                            MostrarClientes();
+                            Mostrar(1, false, Color.Gray);
+                        }
+                        break;
+                }
             }
         }
 
@@ -106,6 +110,7 @@ namespace GUI_V_2.Forms
         {
             Mostrar(1, false, Color.Gray);
             LimpiaCampos();
+            errorProvider1.Clear();
         }
 
         public void Mostrar(int s, bool tf, Color color)
@@ -173,6 +178,23 @@ namespace GUI_V_2.Forms
                     b.Enabled = true;
                 }
             }
+        }
+
+        private bool ValidaCampos()
+        {
+            bool valido = true;
+            foreach (Control c in panel3.Controls)
+            {
+                if (c is TextBox)
+                {
+                    if (c.Text.Length <= 0)
+                    {
+                        errorProvider1.SetError(c, "Campo no puede estar en blanco");
+                        valido = false;
+                    }
+                }
+            }
+            return valido;
         }
     }
 }

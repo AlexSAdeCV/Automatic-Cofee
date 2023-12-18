@@ -110,8 +110,6 @@ C:\Github\Kapicentro\Automatic-Cofee\GUI_V_2\obj\Debug\GUI_V_2.pdb
 C:\Github\Kapicentro\Automatic-Cofee\GUI_V_2\bin\Debug\GUI_V_2.exe.config
 C:\Github\Kapicentro\Automatic-Cofee\GUI_V_2\bin\Debug\GUI_V_2.exe
 C:\Github\Kapicentro\Automatic-Cofee\GUI_V_2\bin\Debug\GUI_V_2.pdb
-C:\Github\Kapicentro\Automatic-Cofee\GUI_V_2\obj\Debug\GUI_V_2.Forms.Menus.resources
-C:\Github\Kapicentro\Automatic-Cofee\GUI_V_2\obj\Debug\GUI_V_2.Forms.VistaProducto.resources
 C:\Github\Kapicentro\Automatic-Cofee\GUI_V_2\obj\Debug\GUI_V_2.Forms.Venta.resources
 C:\Github\Kapicentro\Automatic-Cofee\GUI_V_2\obj\Debug\GUI_V_2.Forms.FormsHomEmpleado.resources
 C:\Github\Kapicentro\Automatic-Cofee\GUI_V_2\bin\Debug\BouncyCastle.Cryptography.dll

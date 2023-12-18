@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -44,8 +45,10 @@
             this.BtnTerminar = new System.Windows.Forms.Button();
             this.CmbCLientes = new System.Windows.Forms.ComboBox();
             this.CmbMetodoP = new System.Windows.Forms.ComboBox();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.DgvProducto)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NudPro)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // DgvProducto
@@ -205,6 +208,10 @@
             this.CmbMetodoP.Size = new System.Drawing.Size(121, 21);
             this.CmbMetodoP.TabIndex = 127;
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // Venta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -229,6 +236,7 @@
             this.Load += new System.EventHandler(this.Venta_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DgvProducto)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NudPro)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -249,5 +257,6 @@
         private System.Windows.Forms.Button BtnTerminar;
         private System.Windows.Forms.ComboBox CmbCLientes;
         private System.Windows.Forms.ComboBox CmbMetodoP;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

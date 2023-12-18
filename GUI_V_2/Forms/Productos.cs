@@ -46,39 +46,43 @@ namespace GUI_V_2
             int renglon;
             string id;
 
-            switch (op)
+            if (ValidaCampos())
             {
-                case 1:
-                    pr.nombre = txtnombre.Text;
-                    pr.precio = Convert.ToDouble(TxtPrecio.Text);
-                    pr.idcategoria = Convert.ToInt32(CmbCategoria.SelectedValue);
+                errorProvider1.Clear();
+                switch (op)
+                {
+                    case 1:
+                        pr.nombre = txtnombre.Text;
+                        pr.precio = Convert.ToDouble(TxtPrecio.Text);
+                        pr.idcategoria = Convert.ToInt32(CmbCategoria.SelectedValue);
 
-                    if (pr.Insertar())
-                    {
-                        MessageBox.Show("Registro agregado exitosamente", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        LimpiaCampos();
-                        HabilitaBotones();
-                        MostarCatalago();
-                        Mostrar(1, false, Color.Gray);
-                    }
-                    break;
-                case 2:
-                    renglon = dgvproductos.CurrentRow.Index;
-                    id = dgvproductos.Rows[renglon].Cells[0].Value.ToString();
-                    pr.nombre = txtnombre.Text;
-                    pr.precio = Convert.ToDouble(TxtPrecio.Text);
-                    pr.idcategoria = Convert.ToInt32(CmbCategoria.SelectedValue);
-                    pr.idproducto = Convert.ToInt32(id);
+                        if (pr.Insertar())
+                        {
+                            MessageBox.Show("Registro agregado exitosamente", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            LimpiaCampos();
+                            HabilitaBotones();
+                            MostarCatalago();
+                            Mostrar(1, false, Color.Gray);
+                        }
+                        break;
+                    case 2:
+                        renglon = dgvproductos.CurrentRow.Index;
+                        id = dgvproductos.Rows[renglon].Cells[0].Value.ToString();
+                        pr.nombre = txtnombre.Text;
+                        pr.precio = Convert.ToDouble(TxtPrecio.Text);
+                        pr.idcategoria = Convert.ToInt32(CmbCategoria.SelectedValue);
+                        pr.idproducto = Convert.ToInt32(id);
 
-                    if (pr.Modificar())
-                    {
-                        MessageBox.Show("Registro modificado exitosamente", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        LimpiaCampos();
-                        HabilitaBotones();
-                        MostarCatalago();
-                        Mostrar(1, false, Color.Gray);
-                    }
-                    break;
+                        if (pr.Modificar())
+                        {
+                            MessageBox.Show("Registro modificado exitosamente", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            LimpiaCampos();
+                            HabilitaBotones();
+                            MostarCatalago();
+                            Mostrar(1, false, Color.Gray);
+                        }
+                        break;
+                }
             }
         }
 
@@ -217,6 +221,24 @@ namespace GUI_V_2
         {
             Mostrar(1, false, Color.Gray);
             LimpiaCampos();
+            errorProvider1.Clear();
+        }
+
+        private bool ValidaCampos()
+        {
+            bool valido = true;
+            foreach (Control c in panel3.Controls)
+            {
+                if (c is TextBox)
+                {
+                    if (c.Text.Length <= 0)
+                    {
+                        errorProvider1.SetError(c, "Campo no puede estar en blanco");
+                        valido = false;
+                    }
+                }
+            }
+            return valido;
         }
     }
 }

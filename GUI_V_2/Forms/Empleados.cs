@@ -69,54 +69,58 @@ namespace GUI_V_2.Forms
             int renglon;
             string id;
 
-            switch (op)
+            if (ValidaCampos())
             {
-                case 1:
-                    ep.Nombre = txtnombre.Text;
-                    ep.ApellidoP = TxtApellidoP.Text;
-                    ep.ApellidoM = TxtApellidoM.Text;
-                    ep.Telefono = TxtTelefono.Text; 
-                    ep.Calle = TxtCalle.Text;
-                    ep.Colonia = TxtColonia.Text;
-                    ep.CodePostal = TxtCp.Text;
-                    ep.Sueldo = Convert.ToDouble(TxtSueldo.Text);
-                    ep.Nivel_Usuario = Convert.ToInt32(comboBox1.SelectedValue);
-                    ep.Usuario = TxtUser.Text;
-                    ep.Contraseña = TxtContraseña.Text;
+                errorProvider1.Clear();
+                switch (op)
+                {
+                    case 1:
+                        ep.Nombre = txtnombre.Text;
+                        ep.ApellidoP = TxtApellidoP.Text;
+                        ep.ApellidoM = TxtApellidoM.Text;
+                        ep.Telefono = TxtTelefono.Text;
+                        ep.Calle = TxtCalle.Text;
+                        ep.Colonia = TxtColonia.Text;
+                        ep.CodePostal = TxtCp.Text;
+                        ep.Sueldo = Convert.ToDouble(TxtSueldo.Text);
+                        ep.Nivel_Usuario = Convert.ToInt32(comboBox1.SelectedValue);
+                        ep.Usuario = TxtUser.Text;
+                        ep.Contraseña = TxtContraseña.Text;
 
-                    if (ep.Insertar())
-                    {
-                        MessageBox.Show("Registro agregado exitosamente", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        LimpiaCampos();
-                        HabilitaBotones();
-                        MostrarEmpleados();
-                        Mostrar(1, false, Color.Gray);
-                    }
-                    break;
-                case 2:
-                    renglon = dataGridView1.CurrentRow.Index;
-                    id = dataGridView1.Rows[renglon].Cells[0].Value.ToString();
-                    ep.IdEmpleado = Convert.ToInt32(id);
-                    ep.Nombre = txtnombre.Text;
-                    ep.ApellidoP = TxtApellidoP.Text;
-                    ep.ApellidoM = TxtApellidoM.Text;
-                    ep.Telefono = TxtTelefono.Text;
-                    ep.Calle = TxtCalle.Text;
-                    ep.Colonia = TxtColonia.Text;
-                    ep.CodePostal = TxtCp.Text;
-                    ep.Sueldo = Convert.ToDouble(TxtSueldo.Text);
-                    ep.Usuario = TxtUser.Text;
-                    ep.Contraseña = TxtContraseña.Text;
+                        if (ep.Insertar())
+                        {
+                            MessageBox.Show("Registro agregado exitosamente", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            LimpiaCampos();
+                            HabilitaBotones();
+                            MostrarEmpleados();
+                            Mostrar(1, false, Color.Gray);
+                        }
+                        break;
+                    case 2:
+                        renglon = dataGridView1.CurrentRow.Index;
+                        id = dataGridView1.Rows[renglon].Cells[0].Value.ToString();
+                        ep.IdEmpleado = Convert.ToInt32(id);
+                        ep.Nombre = txtnombre.Text;
+                        ep.ApellidoP = TxtApellidoP.Text;
+                        ep.ApellidoM = TxtApellidoM.Text;
+                        ep.Telefono = TxtTelefono.Text;
+                        ep.Calle = TxtCalle.Text;
+                        ep.Colonia = TxtColonia.Text;
+                        ep.CodePostal = TxtCp.Text;
+                        ep.Sueldo = Convert.ToDouble(TxtSueldo.Text);
+                        ep.Usuario = TxtUser.Text;
+                        ep.Contraseña = TxtContraseña.Text;
 
-                    if (ep.Modificar())
-                    {
-                        MessageBox.Show("Registro agregado exitosamente", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        LimpiaCampos();
-                        HabilitaBotones();
-                        MostrarEmpleados();
-                        Mostrar(1, false, Color.Gray);
-                    }
-                    break;
+                        if (ep.Modificar())
+                        {
+                            MessageBox.Show("Registro agregado exitosamente", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            LimpiaCampos();
+                            HabilitaBotones();
+                            MostrarEmpleados();
+                            Mostrar(1, false, Color.Gray);
+                        }
+                        break;
+                }
             }
         }
 
@@ -124,6 +128,7 @@ namespace GUI_V_2.Forms
         {
             Mostrar(1, false, Color.Gray);
             LimpiaCampos();
+            errorProvider1.Clear();
         }
 
         public void Mostrar(int s, bool tf, Color color)
@@ -211,6 +216,23 @@ namespace GUI_V_2.Forms
         {
             if (!Char.IsDigit(e.KeyChar) && !Char.IsControl(e.KeyChar) && e.KeyChar != '.')
                 e.Handled = true;
+        }
+
+        private bool ValidaCampos()
+        {
+            bool valido = true;
+            foreach (Control c in panel3.Controls)
+            {
+                if (c is TextBox)
+                {
+                    if (c.Text.Length <= 0)
+                    {
+                        errorProvider1.SetError(c, "Campo no puede estar en blanco");
+                        valido = false;
+                    }
+                }
+            }
+            return valido;
         }
     }
 }
